@@ -1,0 +1,6 @@
+p=int(input("Please enter your Principle Amount:"))
+n=int(input("Please enter the No of Years:"))
+r=int(input("Please enter the Rate of Interest:"))
+t=int(input("Please enter the installments:"))
+CI=p*((1+r/t)**(t*n))
+print("The Compound Interest is:",CI)
